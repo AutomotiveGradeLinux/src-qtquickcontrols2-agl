@@ -46,7 +46,7 @@ AbstractKeyboard {
             }
 
             Repeater {
-                model: ['?', '#', '%', '&', '*', '-', '+', '(', ')']
+                model: ['?', '#', '%', '&', '*', '-', '_', '+', '(', ')']
                 delegate: Key {
                     text: model.modelData
                     Layout.preferredWidth: 2
